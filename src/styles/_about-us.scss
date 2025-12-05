@@ -6,27 +6,32 @@
     margin: 0 auto;
     align-items: center;
     justify-content: center;
-   @include page-grid;
-    grid-template-columns: repeat(4, 1fr);
 
-    @media (min-width: 744px) {
-      grid-template-columns: repeat(6, 1fr);
+      @include page-grid;
+
+       grid-template-columns: repeat(4, 1fr);
+
+      @media (min-width: 744px) {
+       grid-template-columns: repeat(6, 1fr);
     }
-    @media (min-width: 1260px) {
-      grid-template-columns: repeat(12, 1fr);
+    
+       @media (min-width: 1260px) {
+        grid-template-columns: repeat(12, 1fr);
     }
   }
 
   &__title {
     width: 100%;
     padding: 20px;
+
     row-gap: 48px;
     grid-column: 1 / -1;
     padding-inline: 20px;
-    @include on-tablet {
-      padding-block: 72px;
-      row-gap: 120px;
-      grid-column: 1 / 4;
+
+       @include on-tablet {
+        padding-block: 72px;
+        row-gap: 120px;
+        grid-column: 1 / 4;
     }
 
     @include on-desktop {

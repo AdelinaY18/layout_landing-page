@@ -2,11 +2,14 @@
   &__wrapper {
     align-items: center;
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: column wrap;
     justify-content: center;
     max-width: 1000px;
     margin: 0 auto;
     flex-direction: column;
+
+
+
 
     @include on-desktop {
       flex-direction: row;
@@ -49,7 +52,7 @@
   }
   &__message {
     font-weight: 400;
-    font-family: 'Manrope';
+    font-family: 'Manrope', sans-serif;
     resize: none;
     height: 148px;
     text-align: left;
@@ -73,8 +76,9 @@
       background-color: #fff;
       color: #1b2129;
     }
-    @include on-tablet {
-      width: 616px;
+
+       @include on-tablet {
+       width: 616px;
     }
 
     @include on-desktop {
