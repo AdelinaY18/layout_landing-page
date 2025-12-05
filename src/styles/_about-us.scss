@@ -14,7 +14,7 @@
       @media (min-width: 744px) {
        grid-template-columns: repeat(6, 1fr);
     }
-    
+
        @media (min-width: 1260px) {
         grid-template-columns: repeat(12, 1fr);
     }
@@ -75,6 +75,7 @@
     width: 100%;
     font-weight: 400;
     display: grid;
+
     line-height: 140%;
     padding-inline: 20px;
 
@@ -86,7 +87,8 @@
 
     @include on-desktop{
       padding-inline: 120px;
-
+      margin-right: 120px;
+      margin-left: 111px;
     }
   }
 }

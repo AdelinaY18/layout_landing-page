@@ -1,14 +1,12 @@
 .contact-us {
   &__wrapper {
-    align-items: center;
+
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     max-width: 1000px;
     margin: 0 auto;
     flex-direction: column;
-
-
 
 
     @include on-desktop {
@@ -19,6 +17,7 @@
   }
   &__form {
     display: flex;
+    align-items: center;
     flex-direction: column;
     gap: 16px;
   }
@@ -52,7 +51,7 @@
   }
   &__message {
     font-weight: 400;
-    font-family: 'Manrope', sans-serif;
+    font-family: Manrope, sans-serif;
     resize: none;
     height: 148px;
     text-align: left;
@@ -92,6 +91,14 @@
     justify-content: center;
     align-items: flex-start;
     text-align: left;
+    margin-top: 48px;
+
+    @include on-tablet{
+      margin-top: 80px;
+    }
+    @include on-desktop{
+      margin-top: 0;
+    }
   }
   &__item {
     gap: 2px;
