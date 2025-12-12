@@ -5,10 +5,10 @@
   background-image: url(../../icon/icon.burger-menu.before.png);
   background-size: cover;
   cursor: url(../../icon/Cursor-Mouse-Mice.png), pointer;
-  
-    @include on-tablet {
-     height: 32px;
-     width: 32px;
+
+  @include on-tablet {
+    height: 32px;
+    width: 32px;
   }
 
   @include on-desktop {

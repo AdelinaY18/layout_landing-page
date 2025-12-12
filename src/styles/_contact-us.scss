@@ -7,7 +7,6 @@
     margin: 0 auto;
     flex-direction: column;
 
-
     @include on-desktop {
       flex-direction: row;
       justify-content: space-between;
@@ -75,8 +74,8 @@
       color: #1b2129;
     }
 
-       @include on-tablet {
-       width: 616px;
+    @include on-tablet {
+      width: 616px;
     }
 
     @include on-desktop {
@@ -92,11 +91,11 @@
     text-align: left;
     margin-top: 48px;
 
-    @include on-tablet{
+    @include on-tablet {
       margin-top: 80px;
     }
 
-    @include on-desktop{
+    @include on-desktop {
       margin-top: 0;
     }
   }
@@ -123,7 +122,7 @@
     }
   }
 
-  &__info-email{
+  &__info-email {
     text-decoration: none;
     color: #191919;
 
@@ -132,11 +131,11 @@
     }
   }
 
-  &__info-phone{
+  &__info-phone {
     text-decoration: none;
     color: #191919;
 
-    &:hover{
+    &:hover {
       color: $orange-color;
     }
   }

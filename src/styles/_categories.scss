@@ -18,12 +18,12 @@
     width: 280px;
     transition: transform 0.5s;
 
-        @include on-tablet {
-         width: 600px;
+    @include on-tablet {
+      width: 600px;
     }
 
-        @include on-desktop {
-         width: 324px;
+    @include on-desktop {
+      width: 324px;
     }
 
     &:hover {
@@ -35,10 +35,10 @@
 }
 
 .category {
-&__photos {
-     @include page-grid;
-     
-       margin-bottom: 16px;
+  &__photos {
+    @include page-grid;
+
+    margin-bottom: 16px;
   }
 
   &__link {
