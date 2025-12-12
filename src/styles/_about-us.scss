@@ -1,7 +1,6 @@
 .about-us {
   background-color: #fcfaef;
   width: 100%;
-
   &__inner {
     margin: 0 auto;
     align-items: center;
@@ -11,11 +10,11 @@
 
        grid-template-columns: repeat(4, 1fr);
 
-      @media (min-width: 744px) {
+       @include on-tablet {
        grid-template-columns: repeat(6, 1fr);
     }
 
-       @media (min-width: 1260px) {
+       @include on-desktop {
         grid-template-columns: repeat(12, 1fr);
     }
   }

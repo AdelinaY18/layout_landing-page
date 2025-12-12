@@ -4,8 +4,8 @@
     display: grid;
     row-gap: 96px;
     padding-block: 96px;
-    margin-top: 64px;
-
+    margin-top: 0;
+   
     @media on-tablet {
       row-gap: 120px;
       padding-block: 120px;

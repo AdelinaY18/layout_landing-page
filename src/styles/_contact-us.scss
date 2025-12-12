@@ -1,6 +1,5 @@
 .contact-us {
   &__wrapper {
-
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -35,7 +34,7 @@
     padding-left: 16px;
 
     &:hover {
-      border: 1px solid #f9f9f9;
+      border: 1px solid #9393a3;
     }
     &:focus {
       border: 2px solid $orange-color;
@@ -96,6 +95,7 @@
     @include on-tablet{
       margin-top: 80px;
     }
+
     @include on-desktop{
       margin-top: 0;
     }
@@ -119,6 +119,24 @@
     color: #191919;
 
     &:hover {
+      color: $orange-color;
+    }
+  }
+
+  &__info-email{
+    text-decoration: none;
+    color: #191919;
+
+    &:hover {
+      color: $orange-color;
+    }
+  }
+
+  &__info-phone{
+    text-decoration: none;
+    color: #191919;
+
+    &:hover{
       color: $orange-color;
     }
   }
