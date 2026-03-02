@@ -20,10 +20,8 @@
   }
 
   &__title {
-    width: 100%;
     padding: 20px;
-
-    row-gap: 48px;
+     margin-bottom: 10px;
     grid-column: 1 / -1;
     padding-inline: 20px;
 
@@ -57,7 +55,7 @@
     height: 200px;
     grid-column: 1 / -1;
     background-size: cover;
-    background-position: center;
+    background-position: center 80%;
     background-repeat: no-repeat;
 
     @include on-tablet {
@@ -84,7 +82,7 @@
 
     @include on-desktop {
       padding-inline: 120px;
-      margin-right: 120px;
+       margin-right: 120px;
       margin-left: 111px;
     }
   }
